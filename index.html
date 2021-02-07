@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <div class="header cont">
+              <div class="nav-bar">
+                <div class="brand">
+                  <a href="#about"><h1>Leojay Rull</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger active">
+                        <div class="bar"></div>
+                    </div>
+                  <ul>
+                    <li><a href="#about" data-after="About">About</a></li>
+                    <li><a href="#projects" data-after="Projects">Projects</a></li>
+                    <li><a href="contact-form.html" data-after="Contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <section id="about">
+            <div class="about">
+                <div id="aboutRow" class="row no-gutters">
+                    <div class="col-sm-4 no-gutters">
+                        <div class="row no-gutters">
+                            <img src="css/images/pic.jpg" alt="me" id="myPic">
+                        </div>
+                        <div class="row no-gutters">
+                            <a href="#about" onclick="sendEmail()" type="button" class="cta">Download Resume</a> 
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-sm-8 no-gutters">
+                        <div class="row no-gutters" id="firstJob">
+                            <div class="col-sm-4">
+                                <img src="css/images/jv.png" alt="JVPMUC" id="jvlogo">
+                            </div> 
+                            <div class="col-sm-8">
+                                <h4>JV PROPERTY MANAGEMENT UNIVERSAL CORPORATION</h4>
+                                <h4>2017 - 2019</h4>
+                                <h4>Programmer</h4>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row no-gutters" id="secondJob">
+                            <div class="col-sm-4">                            
+                                <img src="css/images/drs.png" alt="DRS" id="drslogo">
+                            </div> 
+                            <div class="col-sm-8">
+                                <h4>DATA REACH SOLUTIONS</h4>
+                                <h4>2019 - Present</h4>
+                                <h4>Programmer II</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="projects">
+                <h1><span style="color: #4de952;">P</span>ROJECTS</h1>
+                <div class="Articles">
+                    <ul>
+                        <li>
+                            <picture title="PSI WIS">
+                                <img id="psilogo" alt="PSI" src="css/images/psi.png">
+                            </picture>
+                            <h4>WAREHOUSE INFORMATION SYSTEM</h4>
+                            <strong>Desktop Application</strong>
+                            <p>A desktop application for cargo management and billing transactions.</p>
+                        </li>
+                        <li>
+                            <picture  title="PSI GBS">
+                                <img id="psilogo2" alt="PSI" src="css/images/psi.png">
+                            </picture>
+                            <h4>GENERAL BILLING SYSTEM</h4>
+                            <br>
+                            <strong>Desktop Application</strong>
+                            <p>A desktop application that computes and records the company's transactions.</p>
+                        </li>
+                        <li>
+                            <picture  title="GALCO WIS">
+                                <img id="galcologo" alt="GALCO" src="css/images/GALCO-LOGO.png">
+                            </picture>
+                            <h4>WAREHOUSE INFORMATION SYSTEM</h4>
+                            <strong>Desktop Application</strong>
+                            <p>A desktop application for cargo management and billing transactions.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="footer cont">
+              <div class="brand"><h1>Leojay Rull</h1></div>
+              <div class="social-icon">
+                <div class="social-item">
+                  <a href="https://fb.com/yahjllur"><img src="https://img.icons8.com/office/200/000000/facebook.png"/></a>
+                </div>
+                <div class="social-item">
+                  <a href="#"><img src="https://img.icons8.com/office/200/000000/instagram.png"/></a>
+                </div>
+                <div class="social-item">
+                  <a href="#"><img src="https://img.icons8.com/office/200/000000/twitter.png"/></a>
+                </div>
+              </div>
+              <p>Copyright © 2021. All rights reserved</p>
+            </div>
+          </section>
+<script src="js/app.js"></script>
+    </body>
+</html>

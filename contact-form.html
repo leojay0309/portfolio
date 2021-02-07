@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Leojay Rull - Contact</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/contact-style.css">
+    </head>
+    
+    <body>
+        <section id="header">
+            <div class="header cont">
+                <div class="nav-bar">
+                <div class="brand">
+                    <a href="#about"><h1>Leojay Rull</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger active">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                    <li><a href="index.html#about" data-after="About">About</a></li>
+                    <li><a href="index.html#projects" data-after="Projects">Projects</a></li>
+                    <li><a href="contact-form.html" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <form action="" method="POST" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" tabindex="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="email@example.com" tabindex="2" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
+                </div>
+                <div>
+                    <button type="submit" name="submit" class="btn" onclick="sendEmail()">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <script src="js/app.js"></script> 
+    </body>
+</html>
